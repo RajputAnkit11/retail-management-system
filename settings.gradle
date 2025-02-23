@@ -1,0 +1,9 @@
+rootProject.name = 'retail-management-system'  // Root project name
+
+// Include all microservices as subprojects
+include 'order-service'
+include 'payment-service'
+include 'shipping-service'
+include 'user-service'
+//include 'config-services'
+//include 'api-gateway'
