@@ -1,14 +1,13 @@
-package com.retail.user_service;
+package com.retail.cart_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserServiceApplication {
+public class CartServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
-		System.out.println("yayy");
+		SpringApplication.run(CartServiceApplication.class, args);
 	}
 
 }

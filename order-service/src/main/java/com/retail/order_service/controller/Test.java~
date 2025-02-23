@@ -1,0 +1,11 @@
+package com.retail.order_service.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class Test {
+
+    public String test() {
+        return "Order Service Controller";
+    }
+}
