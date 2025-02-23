@@ -1,4 +1,0 @@
-package com.retail.order_service.controller;
-
-public class OrderController {
-}

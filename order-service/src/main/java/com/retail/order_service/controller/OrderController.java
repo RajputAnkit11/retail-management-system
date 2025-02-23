@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OrderController {
 
-    @GetMapping(name = "/orders")
+    @GetMapping(path = "/orders")
     public String getOrders() {
         return "These are orders";
     }
