@@ -12,7 +12,7 @@ The **Retail Management System** is a microservices-based application developed 
 - **Shipping Service**: Tracks and manages the shipping process.
 - **Security Service**: Provides security features for the system.
 - **API Gateway**: Acts as an entry point for all requests.
-- **Discovery Service**: Handles service discovery within the microservices architecture.
+- **Discovery Service**: Handles service discovery within the microservice's architecture.
 - **Configuration Service**: Manages centralized configuration for the services.
 
 ## Requirements
@@ -24,17 +24,18 @@ The **Retail Management System** is a microservices-based application developed 
 
 ### 1. Clone the repository
 Clone the repository to your local machine:
-```
-git clone https://github.com/RajputAnkit11/retail-management-system.git
-cd retail-management-system
+```shell 
+  git clone https://github.com/RajputAnkit11/retail-management-system.git
+  cd retail-management-system
 ```
 
 ### 2. Build the project
    This project uses Gradle for dependency management and building. Use the following command to build the project:
 
-bash
-Copy
-./gradlew build
+```shell
+  ./gradlew build
+```
+
 ### 3. Run the services
    Each service in this system can be run independently using your preferred IDE or the command line. Refer to the respective service documentation for specific setup and running instructions.
 
